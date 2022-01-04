@@ -12,8 +12,11 @@
 .menu480 {
   display:none;
 }
-.pageBody { padding-left: 1.5%; padding-right: 1.5%; padding-bottom: 20px; }
-.pageHeader { padding-bottom: 60px; }
+.pageBody {
+padding-left: 1.5%; padding-right: 1.5%; padding-bottom: 20px; }
+.pageHeader { padding-bottom: 60px;
+position: relative;
+z-index: 10;}
 .pageHeaderMenuLink { flex: 5%; }
 .pageHeaderMenuSpace { flex: 67%; }
 .pageHeaderMenuSearch { flex: 10%; }
@@ -136,8 +139,13 @@
     flex-direction:column;
     overflow-y: visible;
     width: 70%;
+    
   }
   .pageHeaderMenuLink {
     color: rgba(94, 13, 13, 1);
+  }
+  .imgbtn480{
+    width: 20px;
+    height: 20px;
   }
 }
