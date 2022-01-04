@@ -29,6 +29,7 @@ z-index: 10;}
     box-shadow: 0px 5px 5px rgba(0,0,0,.2);
 }
 
+
 .pageBodyLeft, .pageBodyRight { flex: 18%; }
 .pageBodyCenter {
     flex: 51%;
@@ -121,6 +122,9 @@ z-index: 10;}
     font-size: 24px;
     color: yellow;
 }
+.hide {
+  display: none !important;
+}
 @media only screen and (max-width: 480px) {
   .pageHeaderMenu480 {
     display:block;
@@ -138,8 +142,10 @@ z-index: 10;}
     display: flex;
     flex-direction:column;
     overflow-y: visible;
-    width: 70%;
-    
+    width: 50%;
+    position: relative;
+    top: 20px;
+    left:20px;
   }
   .pageHeaderMenuLink {
     color: rgba(94, 13, 13, 1);
