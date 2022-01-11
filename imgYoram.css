@@ -131,7 +131,7 @@ z-index: 10;}
     background-color: rgba(94, 13, 13, 1);
     height: 60px;
   }
-  .pageHeaderMenu {
+  .pageHeaderMenu, .pageBodyRight, .pageBodyLeft {
     display:none;
   }
   .menu480 {
@@ -153,5 +153,14 @@ z-index: 10;}
   .imgbtn480{
     width: 20px;
     height: 20px;
+  }
+  .pageBodyCenterBody{
+    padding-bottom: 20px;
+  }
+  .pageBodyCenterBodyCard{
+    flex:40%;
+  }
+  .pageBodyCenterBodyCardHelper {
+    flex:100%;
   }
 }
